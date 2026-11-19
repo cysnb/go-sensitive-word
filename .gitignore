@@ -1,0 +1,9 @@
+.DS_Store
+coverage.out
+coverage.html
+*.test
+/examples/demo
+/examples/*/main
+/tmp/
+.upstream/
+.tmp-internal-check/

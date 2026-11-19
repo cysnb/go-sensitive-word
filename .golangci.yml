@@ -1,0 +1,20 @@
+version: "2"
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - staticcheck
+    - unused
+    - misspell
+    - ineffassign
+  settings:
+    staticcheck:
+      checks:
+        - all
+        - -QF1008
+        - -ST1003
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
